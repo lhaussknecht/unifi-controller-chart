@@ -5,7 +5,7 @@ metadata:
   labels:
     {{- include "unifi-controller.labels" . | nindent 4 }}
 spec:
-  type: ClusterIP
+  type: NodePort
   ports:
     - port: 3478
       targetPort: stun
