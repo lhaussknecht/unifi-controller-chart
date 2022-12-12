@@ -8,7 +8,7 @@ image:
   repository: jacobalberty/unifi
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v6.5"
+  tag: "v7.3.76"
 
 imagePullSecrets: []
 nameOverride: ""
